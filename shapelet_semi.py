@@ -189,4 +189,4 @@ if __name__ == "__main__":
 	inst.run()
 	ri=rand_index_score(inst.label,inst.y_test)
 	ri=round(ri,4)
-	print(ri,[k,ll,j])
+	print(ri)
